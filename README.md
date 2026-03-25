@@ -2,7 +2,7 @@
 
 > A research-focused Agent Company for literature search, citation verification, graph exploration, and DeepScan workflows powered by the hosted PapersFlow MCP server
 
-> An [Agent Company](https://agentcompanies.io) based on [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) and the reusable PapersFlow research workflows packaged in this repository
+> An [Agent Company](https://agentcompanies.io) based on [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) and the reusable PapersFlow workflows referenced from [papersflow-skills](https://github.com/papersflow-ai/papersflow-skills)
 
 ## What's Inside
 
@@ -27,12 +27,14 @@
 
 ### Skills
 
+These skills are referenced from the public `papersflow-skills` repository rather than copied into this package.
+
 | Skill | Description | Source |
 |-------|-------------|--------|
-| research-briefing | Build a focused literature and citation briefing from PapersFlow. | [local](./skills/research-briefing/SKILL.md) |
-| citation-verifier | Verify, normalize, and enrich a single citation or paper identifier. | [local](./skills/citation-verifier/SKILL.md) |
-| deepscan-monitor | Run and monitor PapersFlow DeepScan jobs. | [local](./skills/deepscan-monitor/SKILL.md) |
-| comparative-synthesis | Compare and synthesize findings across multiple completed DeepScan reports. | [local](./skills/comparative-synthesis/SKILL.md) |
+| research-briefing | Build a focused literature and citation briefing from PapersFlow. | [github](https://github.com/papersflow-ai/papersflow-skills/blob/main/skills/research-briefing/SKILL.md) |
+| citation-verifier | Verify, normalize, and enrich a single citation or paper identifier. | [github](https://github.com/papersflow-ai/papersflow-skills/blob/main/skills/citation-verifier/SKILL.md) |
+| deepscan-monitor | Run and monitor PapersFlow DeepScan jobs. | [github](https://github.com/papersflow-ai/papersflow-skills/blob/main/skills/deepscan-monitor/SKILL.md) |
+| comparative-synthesis | Compare and synthesize findings across multiple completed DeepScan reports. | [github](https://github.com/papersflow-ai/papersflow-skills/blob/main/skills/comparative-synthesis/SKILL.md) |
 
 ### Tools
 
@@ -64,8 +66,16 @@ Full tool details live in [TOOLS.md](./TOOLS.md).
 
 ## Getting Started
 
+Import the full package from GitHub with `companies.sh`:
+
 ```bash
-npx http://companies.sh add papersflow-ai/papersflow-company
+npx companies.sh add papersflow-ai/papersflow-company --include company,agents,skills
+```
+
+If you have a local checkout and want to import it directly into Paperclip:
+
+```bash
+paperclipai company import ./papersflow-company --include company,agents,skills
 ```
 
 Then connect the hosted MCP surface from a compatible client when needed:

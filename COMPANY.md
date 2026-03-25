@@ -17,7 +17,7 @@ PapersFlow is a compact research-focused Agent Company built around the hosted `
 
 The company is optimized for academic and technical research tasks that benefit from grounded evidence rather than generic chat. Its literature analyst handles paper discovery and graph exploration. Its citation specialist normalizes and verifies messy references. Its DeepScan operator manages asynchronous long-running research jobs. Its evidence synthesis specialist compares completed runs and produces cross-run summaries. A research director coordinates routing and final quality.
 
-This package is intentionally simple because the underlying PapersFlow system already provides the heavy infrastructure: the hosted MCP endpoint at `https://doxa.papersflow.ai/mcp`, OAuth-backed authenticated tools, and reusable skill instructions for common research workflows. The company layer exists to make those capabilities easier to import and route as a coherent unit.
+This package is intentionally simple because the underlying PapersFlow system already provides the heavy infrastructure: the hosted MCP endpoint at `https://doxa.papersflow.ai/mcp`, OAuth-backed authenticated tools, and reusable skill instructions for common research workflows. The company layer exists to make those capabilities easier to import and route as a coherent unit. The skills in this package are kept as referenced upstream capabilities rather than vendored copies.
 
 ## How Work Flows
 
@@ -28,4 +28,4 @@ This package is intentionally simple because the underlying PapersFlow system al
 
 ---
 
-Built from PapersFlow's hosted MCP and local skill package surfaces.
+Generated from [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) and [papersflow-skills](https://github.com/papersflow-ai/papersflow-skills) with the company-creator skill from [Paperclip](https://github.com/paperclipai/paperclip)
