@@ -4,6 +4,8 @@
 
 > An [Agent Company](https://agentcompanies.io) based on [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) and the reusable PapersFlow workflows referenced from [papersflow-skills](https://github.com/papersflow-ai/papersflow-skills)
 
+![Org Chart](images/org-chart.png)
+
 ## What's Inside
 
 > This is an Agent Company package for PapersFlow research work.
