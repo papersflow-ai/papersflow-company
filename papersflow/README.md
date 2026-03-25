@@ -2,6 +2,8 @@
 
 > A research-focused Agent Company for literature search, citation verification, graph exploration, and DeepScan workflows powered by the hosted PapersFlow MCP server
 
+> Website: [papersflow.ai](https://papersflow.ai)
+
 > An [Agent Company](https://agentcompanies.io) based on [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp) and the reusable PapersFlow workflows referenced from [papersflow-skills](https://github.com/papersflow-ai/papersflow-skills)
 
 ![Org Chart](images/org-chart.png)
@@ -61,6 +63,7 @@ Full tool details live in [TOOLS.md](./TOOLS.md).
 
 ## MCP Endpoint
 
+- Website: [papersflow.ai](https://papersflow.ai)
 - MCP URL: `https://doxa.papersflow.ai/mcp`
 - OAuth protected resource metadata: `https://doxa.papersflow.ai/.well-known/oauth-protected-resource`
 - OAuth authorization server metadata: `https://doxa.papersflow.ai/.well-known/oauth-authorization-server`
@@ -87,4 +90,4 @@ Then connect the hosted MCP surface from a compatible client when needed:
 - Gemini CLI
 - ChatGPT-style MCP apps
 
-For direct MCP setup details, see [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp).
+For direct MCP setup details, see [papersflow-mcp](https://github.com/papersflow-ai/papersflow-mcp). For the product site and app context, see [papersflow.ai](https://papersflow.ai).

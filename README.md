@@ -2,6 +2,8 @@
 
 This repository contains the PapersFlow Agent Company package in [`papersflow/`](./papersflow).
 
+Website: [papersflow.ai](https://papersflow.ai)
+
 Install it with `companies.sh`:
 
 ```bash
